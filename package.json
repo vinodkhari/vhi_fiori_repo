@@ -1,0 +1,15 @@
+{
+  "name": "vhi_fioriproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/ux-ui5-tooling": "^1.8.1",
+    "@ui5/cli": "^2.14.14"
+  }
+}

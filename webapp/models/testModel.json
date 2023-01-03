@@ -1,0 +1,303 @@
+{
+"fruits": [
+    {
+		"name": "Apples",
+		"type": "Alkaline",
+		"color": "Red",
+		"healthBenefit": "Good for Weight Loss",
+		"imageURL": "https://image.shutterstock.com/image-photo/red-apple-on-white-background-260nw-158989157.jpg",
+		"price": 7.99,
+		"currency": "USD",
+		"status": "Available"
+	}, {
+		"name": "Banana",
+		"type": "Alkaline",
+		"color": "Yellow",
+		"healthBenefit": "Good source of potassium",
+		"imageURL": "https://api.time.com/wp-content/uploads/2019/11/gettyimages-459761948.jpg?quality=85&crop=0px%2C74px%2C1024px%2C536px&resize=1200%2C628&strip",
+		"price": 1.99,
+		"currency": "USD",
+		"status": "Available"
+	}, {
+		"name": "Mango",
+		"type": "Acidic",
+		"color": "Yellow",
+		"healthBenefit": "Promotes eye health",
+		"imageURL": "https://c8.alamy.com/comp/WFKTXA/isolated-mango-fruit-tree-branch-with-leaves-and-one-yellow-mango-isolated-on-white-background-with-clipping-path-WFKTXA.jpg",
+		"price": 8.99,
+		"currency": "USD",
+		"status": "Out of Stock"
+	}, {
+		"name": "Kiwi",
+		"type": "Citrus",
+		"color": "Green",
+		"healthBenefit": "Good source of fiber",
+		"imageURL": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2010/10/15/1287157586195/Kiwi-fruit-006.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c6cfa6fbcb85618d75cb633ef946582b",
+		"price": 6.99,
+		"currency": "USD",
+		"status": "Available"
+	}, {
+		"name": "Grapes",
+		"type": "Citrus",
+		"color": "Red",
+		"healthBenefit": "High Antioxidant Contents May Prevent Chronic Diseases",
+		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Table_grapes_on_white.jpg",
+		"price": 5.99,
+		"currency": "USD",
+		"status": "Available"
+	}, {
+		"name": "Oranges",
+		"type": "Citrus",
+		"color": "Orange",
+		"healthBenefit": "Keeps blood pressure under check",
+		"imageURL": "https://www.marlerblog.com/files/2013/03/orange.jpg",
+		"price": 7.58,
+		"currency": "USD",
+		"status": "Available"
+	}, {
+		"name": "Strawberries",
+		"type": "berries",
+		"color": "Red",
+		"healthBenefit": "Rich in antioxidants",
+		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Strawberry_BNC.jpg",
+		"price": 4.99,
+		"currency": "USD",
+		"status": "Out of Stock"
+	}, {
+		"name": "Blueberries",
+		"type": "berries",
+		"color": "Blue",
+		"healthBenefit": "Rich in antioxidants",
+		"imageURL": "https://s7d6.scene7.com/is/image/bjs/22203?$bjs-Zoom$",
+		"price": 4.99,
+		"currency": "USD",
+		"status": "Out of Stock"
+	}, {
+		"name": "Blackberries",
+		"type": "berries",
+		"color": "Black",
+		"healthBenefit": "Rich in antioxidants",
+		"imageURL": "https://www.almanac.com/sites/default/files/image_nodes/blackberries-dish.jpg",
+		"price": 6.99,
+		"currency": "USD",
+		"status": "Out of Stock"
+	}, {
+		"name": "Cherry",
+		"type": "Alkaline",
+		"color": "Red",
+		"healthBenefit": "May Boost Heart Health",
+		"imageURL": "data:image/jpeg;base64,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",
+		"price": 9.99,
+		"currency": "USD",
+		"status": "Discontinued"
+	}, {
+		"name": "Pineapple",
+		"type": "Neutral",
+		"color": "Yellow",
+		"healthBenefit": "May Boost Immunity and Suppress Inflammation",
+		"imageURL": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/10/pineapple-fruit-1296x728-header-1296x728.jpg?w=1155&h=1528",
+		"price": 1.99,
+		"currency": "USD",
+		"status": "Available"
+	}, {
+		"name": "Garpes",
+		"type": "Neutral",
+		"color": "Black",
+		"healthBenefit": "Controls Blood Pressure",
+		"imageURL": "data:image/jpeg;base64,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",
+		"price": 5.99,
+		"currency": "USD",
+		"status": "Out of Stock"
+	}, {
+		"name": "Watermelon",
+		"type": "Neutral",
+		"color": "Black Diamond",
+		"healthBenefit": "Helps in weight loss",
+		"imageURL": "https://images-na.ssl-images-amazon.com/images/I/91tCuetFu6L._AC_SL1500_.jpg",
+		"price": 6.99,
+		"currency": "USD",
+		"status": "Available"
+	}, {
+		"name": "Pear",
+		"type": "Alkaline",
+		"color": "Green",
+		"healthBenefit": "High in antioxidants",
+		"imageURL": "https://www.producemarketguide.com/sites/default/files/Commodities.tar/Commodities/pears_commodity-page.png",
+		"price": 6.99,
+		"currency": "USD",
+		"status": "Available"
+	}, {
+		"name": "Peach",
+		"type": "Neutral",
+		"color": "Orange",
+		"healthBenefit": "Boost immune system",
+		"imageURL": "https://i.stack.imgur.com/Nqx6J.png",
+		"price": 9.99,
+		"currency": "USD",
+		"status": "Out of Stock"
+	}, {
+		"name": "Apricots",
+		"type": "Dry Fruits",
+		"color": "Orange",
+		"healthBenefit": "May promote eye health",
+		"imageURL": "https://cdn11.bigcommerce.com/s-keybtwmv8u/images/stencil/1280x1280/products/4764/4820/apricot__57201.1566396393.jpg?c=2&imbypass=on",
+		"price": 6.99,
+		"currency": "INR",
+		"status": "Out of Stock"
+	}, {
+		"name": "Dates",
+		"type": "Dry Fruit",
+		"color": "Brown",
+		"healthBenefit": "Fiber",
+		"imageURL": "https://tse3.mm.bing.net/th?id=OIP.3voSa0XnGKMfDWvWb11gAAHaE8&pid=Api&P=0",
+		"price": 7.99,
+		"currency": "USD",
+		"status": "Available"
+	}, {
+		"name": "Cherries",
+		"type": "Citrus",
+		"color": "Red",
+		"healthBenefit": "Can boost exercise recovery",
+		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cherry_Stella444.jpg",
+		"price": 250,
+		"currency": "INR",
+		"status": "Discontinued"
+	} 
+],
+"vendors": [
+    {
+    "name": "Costco Inc",
+    "founded": 1975,
+    "contactPerson": "Costco",
+    "contactNo": "123-456-7890",
+    "city": "Seattle",   
+    "suppFruits": [{
+        "name": "Banana",
+        "quantity": 120
+    }, {
+        "name": "Apricots",
+        "quantity": 90
+    }, {
+        "name": "Mango",
+        "quantity": 90
+    }, {
+        "name": "Blackberries",
+        "quantity": 1050
+    }]
+}, {
+    "name": "Sams Club",
+    "founded": 1965,
+    "contactPerson": "Sams",
+    "contactNo": "987-654-3210",
+    "city": "Bentonville",   
+    "suppFruits": [{
+        "name": "Oranges",
+        "quantity": 900
+    }, {
+        "name": "Watermelon",
+        "quantity": 850
+    }, {
+        "name": "Dates",
+        "quantity": 1050
+    }]
+}, {
+    "name": "Cub Foods",
+    "founded": 1981,
+    "contactPerson": "Cub",
+    "contactNo": "456-789-1230",
+    "city": "Minneapolis",    
+    "suppFruits": [{
+        "name": "Apples",
+        "quantity": 120
+    }, {
+        "name": "Grapes",
+        "quantity": 40
+    }, {
+        "name": "Peach",
+        "quantity": 1050
+    }]
+}, {
+    "name": "Hyvee Groceries",
+    "founded": 1991,
+    "contactPerson": "Hyvee",
+    "contactNo": "789-321-4561",
+    "city": "Chicago",    
+    "suppFruits": [{
+        "name": "Strawberries",
+        "quantity": 80
+    }, {
+        "name": "Blueberries",
+        "quantity": 55
+    }, {
+        "name": "Cherries",
+        "quantity": 1050
+    }]
+}, {
+    "name": "Target Inc",
+    "founded": 1988,
+    "contactPerson": "Brooklyn",
+    "contactNo": "987-654-3212",
+    "city": "Brooklyn Park",
+    
+    "suppFruits": [{
+        "name": "Pineapple",
+        "quantity": 1200
+    }, {
+        "name": "Pear",
+        "quantity": 1050
+    }, {
+        "name": "Kiwis",
+        "quantity": 1000
+    }]
+}, {
+    "name": "Lunds & Byerlys",
+    "founded": 1939,
+    "contactPerson": "Lund",
+    "contactNo": "763-456-7890",
+    "city": "Plymouth",   
+    "suppFruits": [{
+        "name": "Grape",
+        "quantity": 900
+    }, {
+        "name": "Strawberries",
+        "quantity": 650
+    }, {
+        "name": "Cherry",
+        "quantity": 1050
+    }]
+}],
+"cities": [
+    {
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "code": "MSP"    
+}, {
+    "city": "Chicago",
+    "state": "Illinois",
+    "code": "ORD"    
+}, {
+    "city": "Madison",
+    "state": "Wisconsin",
+    "code": "MSN" 
+}, {
+    "city": "New York",
+    "state": "New York",
+    "code": "JFK" 
+}, {
+    "city": "Las vegas",
+    "state": "Nevada",
+    "code": "LAS" 
+}, {
+    "city": "San Francisco",
+    "state": "California",
+    "code": "SAN" 
+}, {
+    "city": "Dallas",
+    "state": "Texas",
+    "code": "DFT" 
+}, {
+    "city": "Orlando",
+    "state": "Florida",
+    "code": "ORL" 
+}]
+}

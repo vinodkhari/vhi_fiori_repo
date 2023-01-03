@@ -1,0 +1,76 @@
+<mvcView:View xmlns:mvcView="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="com.tennantco.vhitest.controller.pageView2">
+   <!-- <Page title="{name} - {type}" showNavButton="true" navButtonPress="previousPage"> -->
+   <!-- OData changes for Binding -->
+   <Page title="{PRODUCT_ID} - {CATEGORY}" showNavButton="true" navButtonPress="previousPage">
+       <content>
+           <!-- <ObjectHeader title="{name}" intro="{healthbenefit}" number="{price}" numberUnit="{currency}" icon="{imageURL}"> -->
+           <!-- OData Binding -->
+           <ObjectHeader title="{PRODUCT_ID} - {NAME}" intro="{DESCRIPTION}" number="{PRICE}" numberUnit="{CURRENCY_CODE}" icon="{imageURL}">
+            <statuses>
+			  <ObjectStatus
+			   	text="{status}"
+				state="{path: 'status', formatter: '.formatter.getStatus'}" />			
+		</statuses>
+           </ObjectHeader>
+
+         <IconTabBar >
+             <items>
+                <IconTabFilter icon="sap-icon://home" text="Cities">
+                 <core:Fragment fragmentName="com.tennantco.vhitest.fragments.cities" type="XML"></core:Fragment>
+                    <!-- <Select items="{/cities}">
+                        <items>
+                            <core:Item key="{city}" text="{city}"></core:Item>
+                        </items>                   
+                    </Select> -->
+
+                    <!-- ComboBox Allows Selection of Blank Value-->
+                    <!-- <ComboBox items="{/cities}">
+                        <items>
+                            <core:Item key="{city}" text="{city}"></core:Item>
+                        </items>
+                    </ComboBox> -->
+
+                   <!--Multi Combo Box  -->
+                   <!-- <MultiComboBox items="{/cities}">
+                        <items>
+                            <core:Item key="{city}" text="{city}"></core:Item>
+                        </items>
+                   </MultiComboBox> -->
+                </IconTabFilter>
+                <IconTabFilter icon="sap-icon://supplier" text="Vendors">
+                <core:Fragment fragmentName="com.tennantco.vhitest.fragments.vendor" type="XML"></core:Fragment>
+                <!-- Empty Mobile Table -->
+                <!-- Moved code vendor.fragment.xml -->                  
+
+                </IconTabFilter>
+                <IconTabFilter icon="sap-icon://warning" text="More Information">
+                    <core:Fragment fragmentName="com.tennantco.vhitest.fragments.moreInfo" type="XML"></core:Fragment>
+
+                <!-- Commented out below code and moved to moreInfo.fragment.xml -->
+                   <!-- <form:SimpleForm>
+                      <form:content>
+                            <Label text="Fruit Name"></Label>
+                            <Text text="{name}"></Text>
+                             <Label text="Fruit Type"></Label>
+                            <Text text="{type}"></Text>
+                             <Label text="Price/Currency"></Label>
+                            <Text text="{price} {currency}"></Text>
+                             <Label text="Is Available"></Label>
+                            <Text text="{status}"></Text>
+                      </form:content>
+                   </form:SimpleForm> -->
+                </IconTabFilter>
+             </items>
+         </IconTabBar>  
+
+       </content>
+       <footer>
+          <Toolbar>
+              <ToolbarSpacer></ToolbarSpacer>
+              <Button text="Save" type="Accept" press="save"></Button>
+              <Button text="Cancel" type="Reject" press="cancel"></Button>
+          </Toolbar>
+       </footer>
+
+    </Page>
+</mvcView:View>

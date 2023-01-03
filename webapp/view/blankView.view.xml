@@ -1,0 +1,5 @@
+<mvcView:View xmlns:f="sap.f" xmlns:core="sap.ui.core" xmlns:mvcView="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.tennantco.vhitest.controller.blankView">
+    <Page title="Blank View">
+        <Image src="https://mms.businesswire.com/media/20210202005124/en/780087/23/Tennant_Company_with_150th_Logo.jpg" width="1600px"></Image>
+    </Page>
+</mvcView:View>

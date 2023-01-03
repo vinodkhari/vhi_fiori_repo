@@ -1,0 +1,5 @@
+<mvcView:View xmlns:mvcView="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" controllerName="com.tennantco.vhitest.controller.pageView3">
+    <Page title="Vendor Details" showNavButton="true" navButtonPress="onNavigate">
+        <ObjectHeader title="{fruit>name}" intro="{fruit>founded}" number="{fruit>contactNo}" numberUnit ="{fruit>contactPerson}" icon="sap-icon://supplier"></ObjectHeader>
+    </Page>
+</mvcView:View>

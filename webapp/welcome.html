@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script Id="sap-ui-bootstrap"
+                src= "https://ui5.sap.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_horizon_dark"
+                data-sap-ui-resourceroots = '{
+                    "com.tennantco.vhitest":"./"
+                }'
+                data-sap-ui-bindingSyntax="complex"></script>             
+
+         <script>
+             var component = new sap.ui.core.ComponentContainer({
+                 name: 'com.tennantco.vhitest'
+             });
+
+             component.placeAt("content");
+            
+
+         </script>       
+
+    </head>
+
+    <body class="sapFioriBody" >
+        
+        <div id="content">
+
+        </div>      
+
+    </body>
+</html>
+

@@ -1,0 +1,20 @@
+specVersion: '2.6'
+metadata:
+  name: vhi_fioriproject
+type: application
+server:
+  customMiddleware:
+     - name: fiori-tools-proxy
+       afterMiddleware: compression
+       configuration:
+        ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
+        ui5:
+          path:
+            - /resources
+            - /test-resources
+          url: https://ui5.sap.com
+        backend:
+          - path: /sap
+            url: http://ecce60.dev.com:1234/
+            client: '010'
+            destination: E60

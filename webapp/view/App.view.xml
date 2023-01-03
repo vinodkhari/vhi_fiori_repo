@@ -1,0 +1,9 @@
+<mvcView:View xmlns:mvcView="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" controllerName="com.tennantco.vhitest.controller.App">
+    
+    <!-- Add the App Container Contol -->
+    <!-- <App id="idAppcon"></App> -->
+
+    <!-- Split App Container Control -->
+    <SplitApp id="idAppcon"></SplitApp>
+
+</mvcView:View>
