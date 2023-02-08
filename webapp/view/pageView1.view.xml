@@ -11,7 +11,7 @@
             <!-- <List id="listId" items="{/fruits}" selectionChange="itemSelected" mode="SingleSelectMaster" delete="onItemDelete"> -->
             <!-- <List id="listId" items="{/fruits}" selectionChange="itemSelected"  mode="SingleSelectMaster" delete="onItemDelete"> -->
             <!-- Calling OData ProductEntitySet -->
-                <List id="listId" items="{/ProductEntitySet}" selectionChange="itemSelected"  mode="SingleSelectMaster" delete="onItemDelete" growing="true" growingThreshold="10">
+                <List id="listId" items="{/ProductEntitySet}" selectionChange="itemSelected"  mode="SingleSelectMaster" delete="onItemDelete" growing="true" growingThreshold="20">
                <headerToolbar>
                     <Toolbar>
                         <ToolbarSpacer >  </ToolbarSpacer>

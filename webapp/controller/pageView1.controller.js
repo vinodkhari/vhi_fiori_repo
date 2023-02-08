@@ -99,7 +99,7 @@ sap.ui.define([
         },
 
         itemSelected: function (itemSelectedEvent) {
-            //debugger;
+            debugger;
             // get the Path of Selected Item
             var itemPath = itemSelectedEvent.getParameter("listItem").getBindingContextPath();
 

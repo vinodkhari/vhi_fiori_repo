@@ -13,7 +13,7 @@
 		</statuses>
            </ObjectHeader>
 
-         <IconTabBar >
+         <IconTabBar>
              <items>
                 <IconTabFilter icon="sap-icon://home" text="Cities">
                  <core:Fragment fragmentName="com.tennantco.vhitest.fragments.cities" type="XML"></core:Fragment>

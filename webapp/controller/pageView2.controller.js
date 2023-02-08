@@ -62,17 +62,19 @@ sap.ui.define([
 
         vendorPopupDisplay: null,        
         filterData: function() {
-            var that= this;
+            debugger;
+            var that = this;
             if (!this.vendorPopupDisplay){
                 Fragment.load({
-                    name:'com.tennantco.vhitest.fragments.popup',   
-                    id:'vendor'                ,
-                    controller: this
+                    name:'com.tennantco.vhitest.fragments.popup',
+                    id:'vendor',
+                    controller: this                   
                 }).then(function(objFragment){
+                    debugger;
                     // this.vendorPopupDisplay = objFragment;
                     // this.vendorPopupDisplay.open();
                     // objFragment.open();
-
+                    
                     //inside promise and call back functions, cannot access "this" pointer
                     //controller object, so need to create a local variable for controller object
                     //outside promise/callback var that = this;
@@ -83,11 +85,11 @@ sap.ui.define([
                     that.getView().addDependent(that.vendorPopupDisplay);
                     // Bind the data to Popup
                     that.vendorPopupDisplay.bindAggregation("items",{
-                        path: '/vendors',
+                        path: 'fruit>/vendors',
                         template: new sap.m.ObjectListItem({
-                            title:'{name}',
-                            intro:'Since {founded}',
-                            number:'{contactNo}'                            
+                            title: '{fruit>name}',
+                            intro: '{fruit>founded}',
+                            number:'{fruit>contactNo}'                            
                         })
                     })
                     that.vendorPopupDisplay.open();
@@ -124,16 +126,17 @@ sap.ui.define([
                     that.cityPopupDisplay = objFragment;
                     //Title for Pop Up
                     that.cityPopupDisplay.setTitle("Cities");
+                    //For City Popup Set MultiSelect = false
                     that.cityPopupDisplay.setMultiSelect(false);
                     // Grant Fragment Model acces through View since Fragment donot have access to Model directly
                     that.getView().addDependent(that.cityPopupDisplay);
                     // Bind the data to Popup
                     that.cityPopupDisplay.bindAggregation("items",{
-                        path: '/cities',
+                        path: 'fruit>/cities',
                         template: new sap.m.ObjectListItem({
-                            title:'{city}',
-                            intro:'{code}',
-                            number:'{state}'                            
+                            title:'{fruit>city}',
+                            intro:'{fruit>code}',
+                            number:'{fruit>state}'                            
                         })
                     })
                     that.cityPopupDisplay.open();
