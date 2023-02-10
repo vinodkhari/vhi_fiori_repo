@@ -147,6 +147,7 @@ sap.ui.define([
             //MessageBox.alert("This Value Help under construction");
         },
         onSelect: function (selectedCityEvent) {
+            debugger;
             var cityId = selectedCityEvent.getSource().getId();
             if(cityId.indexOf("Cities") != -1){
                 //Get the selected item object from event confirm
@@ -188,6 +189,7 @@ sap.ui.define([
 
             if (cityId.indexOf("Cities") != -1){
                 //Construct the Filter Object on Serach Value entered
+                //  Below 'city' & 'name' are property names in model
                 var filter = new Filter("city", FilterOperator.Contains, serachValue);
             }else{
                 var filter = new Filter("name", FilterOperator.Contains, serachValue); 

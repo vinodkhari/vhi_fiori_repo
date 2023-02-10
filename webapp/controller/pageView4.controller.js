@@ -7,6 +7,7 @@ sap.ui.define([
     'use strict';
     return baseController.extend("com.tennantco.vhitest.controller.pageView4",{
         onInit: function () {
+            debugger;
             this.router = this.getOwnerComponent().getRouter();
             this.router.getRoute("addProduct").attachMatched(this.addNewProduct, this);
 
@@ -28,7 +29,13 @@ sap.ui.define([
                     "PRODUCT_PIC_URL" : "/sap/public/bc/NWDEMO_MODEL/IMAGES/T380 AMR.jpg"
                 }
             });
-            this.getView().setModel(this.localModel, "product");            
+            this.getView().setModel(this.localModel, "product");    
+            
+            //  this.productModel = new JSONModel;
+            //  var productModel = this.localModel.getData();
+            //  var productId = productModel.productData.PRODUCT_ID;
+            //  this.getProductImage(productId,localModel);
+          
         },
 
         addNewProduct: function (newProductEvent){
